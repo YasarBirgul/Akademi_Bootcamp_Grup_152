@@ -45,10 +45,15 @@ public class Pipe_Revolve_Inst : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     { 
         
-        if (other.gameObject.CompareTag("Player")) 
-        
+        if (other.gameObject.CompareTag("Player"))
+
         {
-            spawnRandomPipes();
+            if (gameObject.GetComponent<SphereCollider>().isTrigger) 
+            {
+                spawnRandomPipes();
+            }
+            
+            
         }
     }
 
