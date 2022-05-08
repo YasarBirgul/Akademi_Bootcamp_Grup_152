@@ -1,15 +1,15 @@
-# **Takım İsmi**
+# **Studio 152**
 
 Takım 152
 
-# SteamPunk bir evrende mobil koşu oyunu
+# Mobil koşu oyunu
 
 ## Takım Elemanları
 
-- Yaşar Birgül: Product Owner
-- Cem : Scrum Master
-- Oxana Cozlova: Team Member/Developer/Game Designer
-- Ufuk Süleyman Oflaz Team Member/Developer/Game Designer
+- Yaşar Birgül: Product Owner / Developer / Game Designer
+- Cem Arslan : Scrum Master / Developer / Game Designer
+- Oxana Cozlova: Team Member/Game Artist/Game Designer
+- Ufuk Süleyman Oflaz Team Member/ Developer/ Game Designer
 
 ## Ürün İsmi
 
@@ -17,7 +17,7 @@ Takım 152
 
 ## Ürün Açıklaması
 
-- Ruins of The Past Steam-Punk bir evrende geçen, mobil cihazların ivmeölçer ve dokunmatik sensörleriyle kontrol edilebilen bir koşu oyunudur.
+- Ruins of The Past, mobil cihazların ivmeölçer ve dokunmatik sensörleriyle kontrol edilebilen bir koşu oyunudur.
 
 ## Ürün Özellikleri
 
@@ -30,7 +30,7 @@ Takım 152
 
 - Toplu taşımada, trafikte zaman geçirenler 
 - 15-25 yaş arası kullanıcılar
-- Steam Punk türünü sevenler
+- Atmosferik oyun sevenler
 - Hikayeli oyun sevenler
 
 
@@ -58,7 +58,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
  ![Backlog 1](https://user-images.githubusercontent.com/97702355/167274395-3adbdea4-cc30-4042-9b17-f5fadac2b7c5.png)
  ![Backlog 2](https://user-images.githubusercontent.com/97702355/167274441-14f0ee97-cc89-4ca2-9e61-2cf5de1718fa.png)
  ![Backlog 3](https://user-images.githubusercontent.com/97702355/167274449-05e86e07-931b-4098-9161-5582b3974e12.png)
- ![Backlog 3](https://user-images.githubusercontent.com/97702355/167274784-3ce709ee-c223-4095-a11e-ceb54a584680.png)
+ ![Backlog 4](https://user-images.githubusercontent.com/97702355/167292120-e3a98269-8a79-4a26-b373-cca29dac81f5.png)
 
 
 - **Ürün Durumu**: Ekran görüntüleri:
@@ -70,13 +70,18 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
   ![Screenshot 5](https://user-images.githubusercontent.com/97702355/167274685-3ddbcfc4-2a2e-4a49-8200-c8650f467b39.png)
 
 
+
 - **Sprint Review**: 
-Alınan kararlar: Veritabanı oluşturması email ile toplanacak veriler için gerekli görülmüştür. Fakat bir yandan da veritabanı form sayfası için gerekli olmamıştır. O sebeple PBI bir sonraki sprint'e aktarılmıştır. Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir. Sprint Review katılımcıları: ......
+Alınan kararlar: Game asset kısmında modellerin çoğunluğunun texture olmadan bitirilmesi yerine sayı olarak azaltılıp texture ile birlikte kullanmaya karar verildi. Assetlerde verilen karara bağlı olarak randomizer ve obstacle scriptleri 2.sprinte bırakılmıştır. Çıkan ürünün çalışmasında 1.sprint seviyesinde bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir. 
+
+Sprint Review Katılımcıları : Yaşar Birgül, Cem Arslan, Oxana Cozlova, Ufuk Süleyman Oflaz
 
 - **Sprint Retrospective:**
-  - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır
-  - Tahmin puanları gözden geçirilmeli ve sprint planlama toplantılarında gerekli geri bildirimlerin developer'lar tarafından verildiğine emin olunmalı
-  - Unit test'ler için ayrılan efor/saat arttırılmalı 
+  
+   - Tahmin puanları gözden geçirilmeli ve sprint planlama toplantılarında gerekli geri bildirimlerin developer'lar tarafından verildiğine emin olunmalı.
+  - Çalışmalar için ayrılan efor/saat arttırılmalı.
+  - Notion kullanımı daha aktif ve çevik yapılmalı.
+  - Unity engine aktarımı sonrası gameplay, environment ve ışık adına nasıl bir farklılık göstereceğini anlamış olduk.
 
 -**Diğer Notlar**:
 - N/A
