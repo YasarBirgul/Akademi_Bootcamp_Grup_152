@@ -6,6 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class Next_Scene : MonoBehaviour
 {
+    private void Start()
+    {
+        Screen.sleepTimeout = SleepTimeout.NeverSleep;
+    }
+
 
     public void NextScene()
     {

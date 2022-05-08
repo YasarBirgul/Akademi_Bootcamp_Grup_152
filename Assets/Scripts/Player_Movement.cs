@@ -14,7 +14,7 @@ public class Player_Movement : MonoBehaviour
    
    
     void Start() {
-      
+         Screen.sleepTimeout = SleepTimeout.NeverSleep;
         _playerAnimator = GetComponent<Animator>();
         _playerTransform = GetComponent<Transform>();
     }

@@ -1,3 +1,5 @@
+-a="C:\Game\RuinsOfthePast\Library\PlayerScriptAssemblies\Assembly-CSharp.dll"
+-a="C:\Game\RuinsOfthePast\Library\PlayerScriptAssemblies\Cinemachine.dll"
 -a="C:\Game\RuinsOfthePast\Library\PlayerScriptAssemblies\UnityEngine.TestRunner.dll"
 -a="C:\Game\RuinsOfthePast\Library\PlayerScriptAssemblies\Unity.Timeline.dll"
 -a="C:\Game\RuinsOfthePast\Library\PlayerScriptAssemblies\Unity.TextMeshPro.dll"
