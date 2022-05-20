@@ -1008,6 +1008,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   forceRate: 0.05
+  forceRateDesrease: 0
 --- !u!54 &8958885777173622015
 Rigidbody:
   m_ObjectHideFlags: 0

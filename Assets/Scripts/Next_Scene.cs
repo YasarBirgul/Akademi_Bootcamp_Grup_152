@@ -10,12 +10,15 @@ public class Next_Scene : MonoBehaviour
     {
         Screen.sleepTimeout = SleepTimeout.NeverSleep;
     }
-
-
     public void NextScene()
     {
      SceneManager.LoadScene(1);   
     }
-    
-    
+
+    public void PlayAgain()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+
 }

@@ -8,7 +8,7 @@ public class Cam_Movement : MonoBehaviour
     public GameObject player;
 
     // Catching
-    void Start()
+    void Awake()
     {
         _cam = GetComponent<Camera>();
         _cam= Camera.main;

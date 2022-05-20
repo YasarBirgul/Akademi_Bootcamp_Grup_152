@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Pipe
+  - 'Obstacle '
+  - OBS
+  - Exp
+  - Gulliotine_UD
+  - Gulliotine_RL
   layers:
   - Default
   - TransparentFX

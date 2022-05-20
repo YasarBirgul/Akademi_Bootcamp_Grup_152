@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Pipe_Revolve_Inst : MonoBehaviour
-{   
-    
-    
+{
+    public GameObject player;
+    private Vector3 MovePosition;
+    private float width;
     //// Pipe Components ////
     // Pipe Rotation Speed
     [SerializeField] public float pipeRotationSpeed = 5;
@@ -27,19 +28,25 @@ public class Pipe_Revolve_Inst : MonoBehaviour
 
 
     // Catching...
-    void Start() {
+    void Awake() {
       
-        
+        width = (float) Screen.width / 2.0f;
         
         pipeTransformData = GetComponent<Transform>();
     }  
     // Rotation of the pipe by accelerator ınput
     void Update() {
+
+        if (Input.touchCount > 0 )
+        {
+            Touch touch = Input.GetTouch(0);
+            Vector3 pos = touch.position;
+            pos.x = (pos.x - width) / width;
+            MovePosition= new Vector3(pos.x, 0.0f, 0.0f);
+            pipeTransformData.transform.Rotate(0,0,-MovePosition.x*2.5f,Space.World);
+           
+        }
         
-        
-        
-        
-        pipeTransformData.transform.Rotate(0, 0, Input.acceleration.x * pipeRotationSpeed, Space.World);
     }
     // Endless Pipe Generator
     private void OnTriggerEnter(Collider other)

@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 1059665358120514406}
   - component: {fileID: 2976957756333852588}
   - component: {fileID: 4789179129481369594}
+  - component: {fileID: 7968618286628083967}
   m_Layer: 0
   m_Name: barrel
-  m_TagString: Untagged
+  m_TagString: OBS
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3625603578203219577}
-  m_LocalRotation: {x: -0.7069834, y: 0, z: 0, w: 0.7072302}
-  m_LocalPosition: {x: 7.69, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -89.98, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1059665358120514406
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -96,3 +97,19 @@ CapsuleCollider:
   m_Height: 0.030183002
   m_Direction: 2
   m_Center: {x: -0.000059256556, y: 0.00063944334, z: -0.00009547949}
+--- !u!54 &7968618286628083967
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3625603578203219577}
+  serializedVersion: 2
+  m_Mass: 0.1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 4
+  m_CollisionDetection: 0
