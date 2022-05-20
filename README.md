@@ -36,7 +36,7 @@ Takım 152
 
 ## Product Backlog URL
 
-[Notion Backlog Board](https://satisfying-passive-57b.notion.site/d87b448f0b8d4dbda3999f0dcbdc877a?v=26612648726943228e85f0c1673c5450)
+[Miro Backlog Board](https://miro.com/app/board/uXjVO2129PQ=/?share_link_id=11476836603)
 
 ---
 
@@ -52,13 +52,13 @@ Takım 152
 
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
 
-- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/DailyScrumMeetingNotesSprint1.docx?raw=true)
+- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/YasarBirgul/Akademi_Bootcamp_Grup_152/files/8653379/sprint.docx)
+
 
 - **Sprint board update**: Sprint board screenshotları: 
- ![Backlog 1](https://user-images.githubusercontent.com/97702355/167274395-3adbdea4-cc30-4042-9b17-f5fadac2b7c5.png)
- ![Backlog 2](https://user-images.githubusercontent.com/97702355/167274441-14f0ee97-cc89-4ca2-9e61-2cf5de1718fa.png)
- ![Backlog 3](https://user-images.githubusercontent.com/97702355/167274449-05e86e07-931b-4098-9161-5582b3974e12.png)
- ![Backlog 4](https://user-images.githubusercontent.com/97702355/167292120-e3a98269-8a79-4a26-b373-cca29dac81f5.png)
+ ![Backlog 1](https://user-images.githubusercontent.com/97702355/167456816-bc5c015f-18ff-454a-9104-0b91feaeef62.png)
+ ![Backlog 2](https://user-images.githubusercontent.com/97702355/167456998-9bee0331-5609-461a-a52d-e62523c7751e.png)
+ ![Backlog 3](https://user-images.githubusercontent.com/97702355/167455362-eaf32a74-c0df-48be-b495-74cb79f8bccf.png)
 
 
 - **Ürün Durumu**: Ekran görüntüleri:
@@ -69,7 +69,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
   ![Screenshot 4](https://user-images.githubusercontent.com/97702355/167274679-c978bb3e-ef84-4bd9-97c0-3f05b60eea4d.png) 
   ![Screenshot 5](https://user-images.githubusercontent.com/97702355/167274685-3ddbcfc4-2a2e-4a49-8200-c8650f467b39.png)
 
-
+## - **Apk Drive Dosya Linki**: [Oyun Apk Dosyasını indir](https://drive.google.com/drive/folders/1GyMYg0k4ZAoBm8BjbPDKHt1lZSrYtFW-?usp=sharing)
 
 - **Sprint Review**: 
 Alınan kararlar: Game asset kısmında modellerin çoğunluğunun texture olmadan bitirilmesi yerine sayı olarak azaltılıp texture ile birlikte kullanmaya karar verildi. Assetlerde verilen karara bağlı olarak randomizer ve obstacle scriptleri 2.sprinte bırakılmıştır. Çıkan ürünün çalışmasında 1.sprint seviyesinde bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir. 
