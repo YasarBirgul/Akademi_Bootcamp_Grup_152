@@ -10,6 +10,7 @@ TagManager:
   - Exp
   - Gulliotine_UD
   - Gulliotine_RL
+  - Button
   layers:
   - Default
   - TransparentFX

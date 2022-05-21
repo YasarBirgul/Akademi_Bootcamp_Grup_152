@@ -7,7 +7,7 @@ using Unity.Services.Mediation;
 
 namespace Unity.Ad.Example
 {
-    public class InterstitialAdExample
+    public class InterstitialAdExample 
     {
         
         IInterstitialAd ad;
