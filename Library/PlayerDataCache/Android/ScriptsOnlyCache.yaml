@@ -24,7 +24,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
-    - TMPro.TextMeshProUGUI
     Unity.Timeline.Editor.dll:
     - TimelinePreferences
     - UnityEditor.Timeline.SequenceHierarchy
@@ -238,17 +237,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1776}
+      Script: {instanceID: 1512}
+    - Class: 114
+      Script: {instanceID: 2088}
     - Class: 114
       Script: {instanceID: 2428}
     - Class: 114
       Script: {instanceID: 2562}
     - Class: 114
-      Script: {instanceID: 2610}
-    - Class: 114
       Script: {instanceID: 2750}
     - Class: 114
       Script: {instanceID: 2950}
+    - Class: 114
+      Script: {instanceID: 3048}
+    - Class: 114
+      Script: {instanceID: 4756}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -256,6 +259,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -974,7 +979,7 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
-      Hash: 14d275d9c2fb322f4e740464cbec8bab
+      Hash: ed753b4db21dfa061f970843a89a15ba
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Score
@@ -1025,4 +1030,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Play.unity
   - Assets/Scenes/Game_Scene.unity
   - Assets/Scenes/Score_Scene.unity
-  playerPath: "C:/Users/yasar/OneDrive/Masa\xFCst\xFC/2.apk"
+  playerPath: "C:/Users/yasar/OneDrive/Masa\xFCst\xFC/3.apk"

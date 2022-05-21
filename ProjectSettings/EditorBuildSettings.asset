@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Game_Scene.unity
     guid: 9cb0d7e6e3fb33743aed3d6c678e41e6
   - enabled: 1
-    path: Assets/Scenes/Score_Scene.unity
-    guid: ca5edbf1f9dd3844a97e64dc74983892
+    path: Assets/Scenes/Replay_Score.unity
+    guid: cc23f83eede129347b3c50a05a73e03b
   m_configObjects: {}

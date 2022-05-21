@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637883932494800005
-    m_Hash: 162848100
+      ticks: 637886485969514749
+    m_Hash: 1008026532
   m_LockFileStatus:
     m_FilePath: C:/Game/RuinsOfthePast/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637883932494859850
-    m_Hash: 3930094187
+      ticks: 637886485969554645
+    m_Hash: 3881873731
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -70,6 +70,152 @@ m_PackageAssets:
         type: 
         url: 
         revision: 
+        path: 
+    - packageId: com.unity.ads@3.7.5
+      testable: 0
+      isDirectDependency: 1
+      version: 3.7.5
+      source: 1
+      resolvedPath: C:\Game\RuinsOfthePast\Library\PackageCache\com.unity.ads@3.7.5
+      assetPath: Packages/com.unity.ads
+      name: com.unity.ads
+      displayName: Advertisement
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Unity Ads is a video ad network for iOS and Android that allows
+        you to quickly and effectively monetize your games.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.0.3
+        - 0.0.4
+        - 0.0.5
+        - 0.0.6
+        - 0.0.7
+        - 0.0.8
+        - 0.0.10
+        - 0.0.11
+        - 0.0.12
+        - 0.0.13
+        - 0.0.14
+        - 0.0.15
+        - 0.0.16
+        - 2.0.0
+        - 2.0.3
+        - 2.0.4
+        - 2.0.7
+        - 2.0.8
+        - 2.3.1
+        - 2.3.2
+        - 3.0.1
+        - 3.0.2
+        - 3.0.3
+        - 3.1.1
+        - 3.2.0
+        - 3.3.0
+        - 3.3.1
+        - 3.4.0
+        - 3.4.1
+        - 3.4.2
+        - 3.4.4
+        - 3.4.5
+        - 3.4.7
+        - 3.4.9
+        - 3.5.0
+        - 3.5.2
+        - 3.6.1
+        - 3.7.0
+        - 3.7.1
+        - 3.7.3
+        - 3.7.5
+        - 4.0.0
+        - 4.0.1
+        - 4.1.0
+        - 4.2.1
+        compatible:
+        - 0.0.3
+        - 0.0.4
+        - 0.0.5
+        - 0.0.6
+        - 0.0.7
+        - 0.0.8
+        - 0.0.10
+        - 0.0.11
+        - 0.0.12
+        - 0.0.13
+        - 0.0.14
+        - 0.0.15
+        - 0.0.16
+        - 2.0.0
+        - 2.0.3
+        - 2.0.4
+        - 2.0.7
+        - 2.0.8
+        - 2.3.1
+        - 2.3.2
+        - 3.0.1
+        - 3.0.2
+        - 3.0.3
+        - 3.1.1
+        - 3.2.0
+        - 3.3.0
+        - 3.3.1
+        - 3.4.0
+        - 3.4.1
+        - 3.4.2
+        - 3.4.4
+        - 3.4.5
+        - 3.4.7
+        - 3.4.9
+        - 3.5.0
+        - 3.5.2
+        - 3.6.1
+        - 3.7.0
+        - 3.7.1
+        - 3.7.3
+        - 3.7.5
+        - 4.0.0
+        - 4.0.1
+        - 4.1.0
+        - 4.2.1
+        verified: 3.7.5
+      dependencies:
+      - name: com.unity.ugui
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      keywords:
+      - ads
+      - unity
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637635162230000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.ads.git
+        revision: 0e92fa56fc4e4cd1fa305e76a911acdae6386b96
         path: 
     - packageId: com.unity.cinemachine@2.6.11
       testable: 0
@@ -330,9 +476,11 @@ m_PackageAssets:
         version: 1.0.1
       resolvedDependencies:
       - name: com.unity.services.core
-        version: 1.0.1
+        version: 1.1.0-pre.11
       - name: com.unity.modules.unitywebrequest
         version: 1.0.0
+      - name: com.unity.nuget.newtonsoft-json
+        version: 2.0.0
       keywords:
       - backup
       - cloud
@@ -649,6 +797,86 @@ m_PackageAssets:
         type: git
         url: git+https://github.com/Unity-Technologies/com.unity.ide.vscode.git
         revision: 1f4f605d5c988cb610c372b5c5216c46cc8f5d30
+        path: 
+    - packageId: com.unity.services.mediation@0.4.1-preview.1
+      testable: 0
+      isDirectDependency: 1
+      version: 0.4.1-preview.1
+      source: 1
+      resolvedPath: C:\Game\RuinsOfthePast\Library\PackageCache\com.unity.services.mediation@0.4.1-preview.1
+      assetPath: Packages/com.unity.services.mediation
+      name: com.unity.services.mediation
+      displayName: Mediation
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: "The Unity Mediation SDK lets you easily implement mediation strategies
+        with various supported third-party ad networks to monetize your game, whether
+        you develop in Unity, Xcode, or Android Studio.\n\nGet started with Mediation
+        in a few simple steps by installing the Unity Mediation package, configuring
+        your ad networks, and implementing your game code with mediation. In the
+        Unity Dashboard, refer to ad units to surface ads in your game, set up your
+        mediation strategies, and use reporting and analytics to track performance.\n\nSupported
+        platforms:\n\u25AA Android\n\u25AA iOS"
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.2.1-preview.1
+        - 0.2.1-preview.2
+        - 0.3.0-preview.3
+        - 0.4.0-preview.1
+        - 0.4.0-preview.2
+        - 0.4.1-preview.1
+        compatible:
+        - 0.2.1-preview.1
+        - 0.2.1-preview.2
+        - 0.3.0-preview.3
+        - 0.4.0-preview.1
+        - 0.4.0-preview.2
+        - 0.4.1-preview.1
+        verified: 
+      dependencies:
+      - name: com.unity.settings-manager
+        version: 1.0.3
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.services.core
+        version: 1.1.0-pre.11
+      resolvedDependencies:
+      - name: com.unity.settings-manager
+        version: 1.0.3
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.services.core
+        version: 1.1.0-pre.11
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      - name: com.unity.nuget.newtonsoft-json
+        version: 2.0.0
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637842723200000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.mediation.git
+        revision: 7defe018d11b73cc2d4e9208264cf1708bd77023
         path: 
     - packageId: com.unity.test-framework@1.1.29
       testable: 0
@@ -2951,12 +3179,74 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
         revision: 29ea4d6504a5f58fb3a6934db839aa80ae6d9d88
         path: 
-    - packageId: com.unity.services.core@1.0.1
+    - packageId: com.unity.settings-manager@1.0.3
       testable: 0
       isDirectDependency: 0
-      version: 1.0.1
+      version: 1.0.3
       source: 1
-      resolvedPath: C:\Game\RuinsOfthePast\Library\PackageCache\com.unity.services.core@1.0.1
+      resolvedPath: C:\Game\RuinsOfthePast\Library\PackageCache\com.unity.settings-manager@1.0.3
+      assetPath: Packages/com.unity.settings-manager
+      name: com.unity.settings-manager
+      displayName: Settings Manager
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: A framework for making any serializable field a setting, complete
+        with a pre-built settings interface.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.0-preview.4
+        - 0.1.0-preview.8
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
+        - 2.0.0
+        - 2.0.1
+        compatible:
+        - 0.1.0-preview.4
+        - 0.1.0-preview.8
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
+        - 2.0.0
+        - 2.0.1
+        verified: 1.0.3
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637300096300000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
+        revision: 473664ccba1496294b741cf169740a5d54b3d0b6
+        path: 
+    - packageId: com.unity.services.core@1.1.0-pre.11
+      testable: 0
+      isDirectDependency: 0
+      version: 1.1.0-pre.11
+      source: 1
+      resolvedPath: C:\Game\RuinsOfthePast\Library\PackageCache\com.unity.services.core@1.1.0-pre.11
       assetPath: Packages/com.unity.services.core
       name: com.unity.services.core
       displayName: Services Core
@@ -2970,7 +3260,7 @@ m_PackageAssets:
         Service packages.
 
         These are standardized and aim to unify the overall
-        experience of working with Game Services packages.'
+        experience of working with Game Services SDK.'
       status: 4
       errors: []
       versions:
@@ -3004,9 +3294,13 @@ m_PackageAssets:
       dependencies:
       - name: com.unity.modules.unitywebrequest
         version: 1.0.0
+      - name: com.unity.nuget.newtonsoft-json
+        version: 2.0.0
       resolvedDependencies:
       - name: com.unity.modules.unitywebrequest
         version: 1.0.0
+      - name: com.unity.nuget.newtonsoft-json
+        version: 2.0.0
       keywords: []
       registry:
         id: main
@@ -3020,13 +3314,93 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637604883250000000
+      datePublishedTicks: 637707872830000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-        revision: 4cd880d4fd5c60597629249bf4f324e4c8d7aa2e
+        revision: e1991116e456b6570643df3a0635032785ac8b3a
+        path: 
+    - packageId: com.unity.nuget.newtonsoft-json@2.0.0
+      testable: 0
+      isDirectDependency: 0
+      version: 2.0.0
+      source: 1
+      resolvedPath: C:\Game\RuinsOfthePast\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
+      assetPath: Packages/com.unity.nuget.newtonsoft-json
+      name: com.unity.nuget.newtonsoft-json
+      displayName: Newtonsoft Json
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'Newtonsoft Json for use in Unity projects and Unity packages.
+        Currently synced to version 12.0.2.
+
+
+        This package is used for advanced
+        json serialization and deserialization. Most Unity users will be better suited
+        using the existing json tools built into Unity.
+
+        To avoid assembly
+        clashes, please use this package if you intend to use Newtonsoft Json.'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
+        - 2.0.0
+        - 2.0.1-preview.1
+        - 2.0.2
+        - 3.0.1
+        - 3.0.2
+        compatible:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
+        - 2.0.0
+        - 2.0.1-preview.1
+        - 2.0.2
+        - 3.0.1
+        - 3.0.2
+        verified: 2.0.2
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637237898320000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
+        revision: d2fd6ed876261bbd82f59199ad711e7667bf633a
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []

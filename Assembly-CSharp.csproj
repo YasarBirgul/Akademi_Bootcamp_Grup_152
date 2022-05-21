@@ -52,12 +52,21 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\HealthController.cs" />
-     <Compile Include="Assets\Scripts\Player_Movement.cs" />
-     <Compile Include="Assets\Scripts\Cam_Movement.cs" />
-     <Compile Include="Assets\Scripts\Pipe_Revolve_Inst.cs" />
-     <Compile Include="Assets\Scripts\Score.cs" />
+     <Compile Include="Assets\Scripts\Yeniler\HealthController.cs" />
+     <Compile Include="Assets\Scripts\Yeniler\VariousPipesList.cs" />
+     <Compile Include="Assets\Scripts\Yeniler\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Yeniler\PlayerInput.cs" />
+     <Compile Include="Assets\Scripts\Yeniler\Pipe.cs" />
+     <Compile Include="Assets\Prefabs\1st_Sprint_Variations_Pipe\InterstıtıalAdExample.cs" />
+     <Compile Include="Assets\Scripts\Yeniler\ScriptableObjectSpawner.cs" />
+     <Compile Include="Assets\Scripts\ScoreManager.cs" />
+     <Compile Include="Assets\Scripts\Yeniler\PipeGenerator.cs" />
+     <Compile Include="Assets\Scripts\Yeniler\PipeRevolveInput.cs" />
+     <Compile Include="Assets\Scripts\Yeniler\Player.cs" />
+     <Compile Include="Assets\Scripts\Score_ReplayScene.cs" />
      <Compile Include="Assets\Scripts\Next_Scene.cs" />
+     <Compile Include="Assets\Scripts\ShowAdvertisement.cs" />
+     <Compile Include="Assets\Scripts\Yeniler\Mediation.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -294,6 +303,9 @@
  </Reference>
  <Reference Include="DOTween">
  <HintPath>C:/Game/RuinsOfthePast/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>C:/Game/RuinsOfthePast/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -646,14 +658,8 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
- <Reference Include="Cinemachine">
- <HintPath>C:/Game/RuinsOfthePast/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
- </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>C:/Game/RuinsOfthePast/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
- </Reference>
- <Reference Include="com.unity.cinemachine.editor">
- <HintPath>C:/Game/RuinsOfthePast/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Game/RuinsOfthePast/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -661,17 +667,20 @@
  <Reference Include="Unity.VisualStudio.Editor">
  <HintPath>C:/Game/RuinsOfthePast/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Game/RuinsOfthePast/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
- </Reference>
  <Reference Include="Unity.Timeline">
  <HintPath>C:/Game/RuinsOfthePast/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>C:/Game/RuinsOfthePast/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Game/RuinsOfthePast/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.2D.Sprite.Editor">
  <HintPath>C:/Game/RuinsOfthePast/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mediation">
+ <HintPath>C:/Game/RuinsOfthePast/Library/ScriptAssemblies/Unity.Mediation.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Game/RuinsOfthePast/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
@@ -684,6 +693,27 @@
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Game/RuinsOfthePast/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Services.Core">
+ <HintPath>C:/Game/RuinsOfthePast/Library/ScriptAssemblies/Unity.Services.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="Cinemachine">
+ <HintPath>C:/Game/RuinsOfthePast/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>C:/Game/RuinsOfthePast/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Services.Core.Environments">
+ <HintPath>C:/Game/RuinsOfthePast/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline.Editor">
+ <HintPath>C:/Game/RuinsOfthePast/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Monetization">
+ <HintPath>C:/Game/RuinsOfthePast/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements.Editor">
+ <HintPath>C:/Game/RuinsOfthePast/Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
