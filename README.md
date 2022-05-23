@@ -89,6 +89,54 @@ Sprint Review Katılımcıları : Yaşar Birgül, Cem Arslan, Oxana Cozlova, Ufu
 ---
 
 # Sprint 2
+- **Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 141 Puan
+
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 380 puanlık backlog bulunmaktadır. 4 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
+
+- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
+
+Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
+
+- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 2 Daily Scrum Chats](https://github.com/YasarBirgul/Akademi_Bootcamp_Grup_152/files/8757123/Sprint_2_0.docx)
+
+
+
+- **Sprint board update**: Sprint board screenshotları: 
+ ![Backlog 1](https://user-images.githubusercontent.com/97702355/169875202-65fa5d6d-ded0-4dd1-883a-f07257f9e944.png)
+ ![Backlog 2](https://user-images.githubusercontent.com/97702355/169875266-b023820f-9574-44c3-bc89-8572db7c0d90.png)
+ ![Backlog 3](https://user-images.githubusercontent.com/97702355/169875332-e75362a2-7d4a-4d87-abb9-a2db673d698b.png)
+
+
+
+- **Ürün Durumu**: Ekran görüntüleri:
+
+  ![Screenshot 1](https://user-images.githubusercontent.com/97702355/167274646-a84b31ef-682a-46df-9c45-9e90bec323e5.png)
+  
+  ![Screenshot 2](https://user-images.githubusercontent.com/97702355/169877921-024ee2df-5215-4a7b-823e-bcd072a26c94.png)
+  
+  ![Screenshot 3](https://user-images.githubusercontent.com/97702355/169877985-ffc2cabf-0943-4cc4-ada0-ec4194d04c8e.png)
+  
+  ![Screenshot 4](https://user-images.githubusercontent.com/97702355/169878032-355f8c4f-ff77-4d62-8f38-9000b612b6d7.png)
+  
+  ![Screenshot 5](https://user-images.githubusercontent.com/97702355/169878472-f9ef3f81-4cec-42c1-bdcd-1c60276db236.png)
+
+
+## - **Apk Drive Dosya Linki**: [Oyun Apk Dosyasını indir](https://drive.google.com/drive/folders/1Xcy-4H6c_STsZ24MfLi4SGDsk46NO0LB?usp=sharing)
+
+- **Sprint Review**: 
+Alınan kararlar: Game asset kısmında model varyasyonlarında değişikliğe gidildi, texture ve model anlamında sayılar artırıldı. Mekanikler eklendi ve bazı mekaniklerde değişikliğe gidildi ve etkileşim artırılmaya çalışıldı. Scriptler SOLID prensiplerine göre yeniden düzenlendi ve scriptable object gibi veri küçültücü ve veriyi sağlıklı şekilde taşıyan game objectler oluşturuldu. Rigidbody movement ve swipe to jump inputları yazıldı ve pipe dönüşü gyro yerine dokunmatik ekran inputuna aktarıldı. Post process denemelerine gidildi. Oyunun finalizasyonu 3.sprinte bırakıldı.
+
+Sprint Review Katılımcıları : Yaşar Birgül, Cem Arslan, Oxana Cozlova, Ufuk Süleyman Oflaz
+
+- **Sprint Retrospective:**
+  
+  - Versiyon kontrolleri yapılmalı.
+  - Prefab düzeni kararlaştırıldığı gibi devam edilmeli. 
+
+-**Diğer Notlar**:
+- N/A
 
 
 ---
