@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Play.unity
     guid: df7c0fd51d666dc4d86562fe820abf88
   - enabled: 1
-    path: Assets/Scenes/Game_Scene.unity
-    guid: 9cb0d7e6e3fb33743aed3d6c678e41e6
+    path: Assets/Oxana's Folder/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/Replay_Score.unity
     guid: cc23f83eede129347b3c50a05a73e03b

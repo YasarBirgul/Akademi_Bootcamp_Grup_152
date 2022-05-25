@@ -13,14 +13,22 @@ MonoBehaviour:
   m_Name: Start
   m_EditorClassIdentifier: 
   prefabName: Pipe
-  numberOfPrefabsToCreate: 4
+  numberOfPrefabsToCreate: 6
   spawnPoints:
   - {x: 0, y: 0, z: 0}
   - {x: 0, y: 0, z: 10}
   - {x: 0, y: 0, z: 20}
   - {x: 0, y: 0, z: 30}
+  - {x: 0, y: 0, z: 40}
+  - {x: 0, y: 0, z: 50}
   pipesTypes:
-  - {fileID: 4259872014652207004, guid: cf6130e800d698c429944e606bcdc6a1, type: 3}
-  - {fileID: 8805849207970312989, guid: 45b4a0939ab77b54188faf2944c66fcb, type: 3}
-  - {fileID: 7442350199356474112, guid: 247fee1ffaa8d41449d3444dee18fce3, type: 3}
-  - {fileID: 4183924982343329389, guid: 1f78dcd467a725c45905b68c6b50a49c, type: 3}
+  - {fileID: 8339186688834710415, guid: f2b0bc63e69b9d04e91d9d1f0625bf2d, type: 3}
+  - {fileID: 3446673250725328675, guid: 766856e9e5d218445b068e1906f5424e, type: 3}
+  - {fileID: 1595040907284428520, guid: 1e3c433f8799f0a4986327f5c322b6b6, type: 3}
+  - {fileID: 3106705620034716609, guid: 9cb10a82484683445851db07aa7f1f81, type: 3}
+  - {fileID: 2028342115751262717, guid: 90a1cf2e50d981e4d884f31c8689ce0e, type: 3}
+  - {fileID: 6552463853050061456, guid: 1d00b712b17323a4bb3d9b29c1b6112d, type: 3}
+  - {fileID: 7590452289887571706, guid: bf173e001d545034ab385e4ef050ec41, type: 3}
+  - {fileID: 4326874691726791720, guid: 0023fd0898ceaf94e869c4f81f20d76e, type: 3}
+  - {fileID: 4173285398740606701, guid: 91755b31702842a4bb12176eed20a853, type: 3}
+  - {fileID: 5491263664602161942, guid: b5fa0de5664535b43ba752ce158d612b, type: 3}

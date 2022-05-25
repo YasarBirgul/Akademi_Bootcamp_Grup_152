@@ -10,7 +10,7 @@ public class Button : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _collisionGulliotine = GetComponent<CollisionGulliotine>();
+        
     } 
     private void OnTriggerEnter(Collider other)
     {

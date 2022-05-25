@@ -5,6 +5,10 @@ using UnityEngine;
 
 public class CollisionGulliotine : MonoBehaviour
 {
+    private void Start()
+    {
+    }
+
     public void GulliotineStop()
     {
         GetComponent<Animator>().enabled = false;
