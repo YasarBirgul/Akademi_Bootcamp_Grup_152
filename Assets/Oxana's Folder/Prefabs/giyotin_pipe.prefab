@@ -9,6 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8024003347802444778}
+  - component: {fileID: 3859872719192332109}
+  - component: {fileID: 7953647987072437982}
+  - component: {fileID: 9034408723395329778}
+  - component: {fileID: 75083489628867622}
   m_Layer: 0
   m_Name: giyotin_pipe
   m_TagString: Pipe
@@ -34,6 +38,59 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &3859872719192332109
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3446673250725328675}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 3.627348
+  m_Center: {x: 0, y: 0, z: 19.526392}
+--- !u!114 &7953647987072437982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3446673250725328675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1db89a389de71314aa3f5dd311849193, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _PipeRevolveInput: {fileID: 75083489628867622}
+--- !u!114 &9034408723395329778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3446673250725328675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6b4a6168638784409b69ccb71619bee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _variousPipesList: {fileID: 11400000, guid: 0d47bd18f53a5684e8d341d416854d43, type: 2}
+  rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!114 &75083489628867622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3446673250725328675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9652da933dc493640a676985d8d15954, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  revolveSpeed: 2
 --- !u!1001 &1447506816268464644
 PrefabInstance:
   m_ObjectHideFlags: 0

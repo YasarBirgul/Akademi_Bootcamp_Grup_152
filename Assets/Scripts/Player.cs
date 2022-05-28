@@ -7,7 +7,8 @@ public class Player : MonoBehaviour
     // PLayer Rigidbody Movement
     public Player_Movement _playerMovement;
     public Player_Input _playerInput;
-    public ScoreManager _scoreManager;
+    [SerializeField]
+    private ScoreManager _scoreManager;
     public Transform _transform;
     void Start()
     {   _playerMovement = GetComponent<Player_Movement>();
@@ -18,7 +19,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     public void Update()
     {  
-        ScoreManager.OG2D.ScoreIncrease(_transform.position.z);
+        ScoreManager._instance.ScoreIncrease(_transform.position.z);
         _playerInput.Jump();
     } 
     private void FixedUpdate()

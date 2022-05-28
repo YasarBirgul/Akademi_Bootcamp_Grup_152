@@ -9,6 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5144189218898071434}
+  - component: {fileID: 2264065786246171369}
+  - component: {fileID: 3500769433545589265}
+  - component: {fileID: 1717993031313812749}
+  - component: {fileID: 4821483471461809899}
   m_Layer: 0
   m_Name: shutter_pipe
   m_TagString: Pipe
@@ -34,6 +38,59 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2264065786246171369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4326874691726791720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1db89a389de71314aa3f5dd311849193, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _PipeRevolveInput: {fileID: 1717993031313812749}
+--- !u!114 &3500769433545589265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4326874691726791720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6b4a6168638784409b69ccb71619bee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _variousPipesList: {fileID: 11400000, guid: 0d47bd18f53a5684e8d341d416854d43, type: 2}
+  rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!114 &1717993031313812749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4326874691726791720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9652da933dc493640a676985d8d15954, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  revolveSpeed: 2
+--- !u!135 &4821483471461809899
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4326874691726791720}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 3.627348
+  m_Center: {x: 0, y: 0, z: 19.526392}
 --- !u!1001 &1978563607020449654
 PrefabInstance:
   m_ObjectHideFlags: 0

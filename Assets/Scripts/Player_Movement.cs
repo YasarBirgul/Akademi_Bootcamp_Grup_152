@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Player_Movement : MonoBehaviour
-{
-
-    private Vector3 PlayerMoveVector3 = Vector3.forward;
+{   private Vector3 PlayerMoveVector3 = Vector3.forward;
     public float movementSpeed;
     private Rigidbody _rbPlayer;
     void Start()
@@ -16,6 +14,4 @@ public class Player_Movement : MonoBehaviour
     { 
         _rbPlayer.velocity = PlayerMoveVector3 * movementSpeed * Time.deltaTime;
     }
-    
-    
 }

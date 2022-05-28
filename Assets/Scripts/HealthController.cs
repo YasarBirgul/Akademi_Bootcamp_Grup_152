@@ -24,7 +24,7 @@ public class HealthController : MonoBehaviour
         if (playerHealth == 0)
         {
           //  _showAdvertisement.myFunction();
-            ScoreManager.OG2D.CheckHighScore();
+            ScoreManager._instance.CheckHighScore();
             SceneManager.LoadScene(2);
         }
    
