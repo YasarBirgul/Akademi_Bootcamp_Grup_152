@@ -1,30 +1,37 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Player_Input : MonoBehaviour
 {
-    public Animator _playerAnimator;
-    void Start()
+    [SerializeField]
+    private AnimationManager _animationManager;
+    
+
+    private void Awake()
     {
-        _playerAnimator = GetComponent<Animator>();
+        _animationManager = GetComponent<AnimationManager>();
     }
-    public void Jump()
+
+
+
+    private void Update()
     {
         if (Input.touchCount != 0)
-        {    
-            Touch touch = Input.GetTouch(0);
-            if (Input.GetTouch(0).phase == TouchPhase.Moved && touch.deltaPosition.y > 15f)
-            {
-                _playerAnimator.SetBool("jump_touch", true);
-                Invoke("setBoolBack",1f);
-            }
-            
-        }
-        
-    }
-    public void setBoolBack()
-    {
-        _playerAnimator.SetBool("jump_touch", false);
+             {    
+                 
+                 Touch touch = Input.GetTouch(0);
+                 if ( Input.GetTouch(0).deltaPosition.y != 0 )
+                 {
+                     _animationManager.Jump();
+                 }
+                 else
+                 {
+                     _animationManager.JumpReset();
+                 }
+             }
     }
 }

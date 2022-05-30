@@ -20,7 +20,6 @@ public class Player : MonoBehaviour
     public void Update()
     {  
         ScoreManager._instance.ScoreIncrease(_transform.position.z);
-        _playerInput.Jump();
     } 
     private void FixedUpdate()
     { 

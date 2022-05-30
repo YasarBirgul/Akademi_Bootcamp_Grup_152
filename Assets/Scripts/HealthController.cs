@@ -38,6 +38,7 @@ public class HealthController : MonoBehaviour
 
                 hearths[i].color = Color.red;
             }
+            
             else
             {
                 hearths[i].color = Color.clear;

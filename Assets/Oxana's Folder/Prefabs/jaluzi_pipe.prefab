@@ -90,7 +90,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9652da933dc493640a676985d8d15954, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  revolveSpeed: 2
+  revolveSpeed: 4
 --- !u!1001 &4290068607833218633
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -160,9 +160,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3091678752991493994}
     m_Modifications:
+    - target: {fileID: 137674960971907241, guid: 0c27148cd56f77e42876e79002656f02, type: 3}
+      propertyPath: m_TagString
+      value: OBS
+      objectReference: {fileID: 0}
+    - target: {fileID: 582264978520371217, guid: 0c27148cd56f77e42876e79002656f02, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 582264978520371217, guid: 0c27148cd56f77e42876e79002656f02, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 854872728562581699, guid: 0c27148cd56f77e42876e79002656f02, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1570422167062418586, guid: 0c27148cd56f77e42876e79002656f02, type: 3}
       propertyPath: m_Name
       value: jaluzi
+      objectReference: {fileID: 0}
+    - target: {fileID: 1570422167062418586, guid: 0c27148cd56f77e42876e79002656f02, type: 3}
+      propertyPath: m_TagString
+      value: OBS
       objectReference: {fileID: 0}
     - target: {fileID: 2197917213117632032, guid: 0c27148cd56f77e42876e79002656f02, type: 3}
       propertyPath: m_RootOrder
@@ -207,6 +227,50 @@ PrefabInstance:
     - target: {fileID: 2197917213117632032, guid: 0c27148cd56f77e42876e79002656f02, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328800637033146093, guid: 0c27148cd56f77e42876e79002656f02, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729299450772388885, guid: 0c27148cd56f77e42876e79002656f02, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5927269331163998672, guid: 0c27148cd56f77e42876e79002656f02, type: 3}
+      propertyPath: m_TagString
+      value: OBS
+      objectReference: {fileID: 0}
+    - target: {fileID: 6856177270588427638, guid: 0c27148cd56f77e42876e79002656f02, type: 3}
+      propertyPath: m_TagString
+      value: OBS
+      objectReference: {fileID: 0}
+    - target: {fileID: 7373261252457891326, guid: 0c27148cd56f77e42876e79002656f02, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 7373261252457891326, guid: 0c27148cd56f77e42876e79002656f02, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 7373261252457891326, guid: 0c27148cd56f77e42876e79002656f02, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7405845899879945459, guid: 0c27148cd56f77e42876e79002656f02, type: 3}
+      propertyPath: m_TagString
+      value: OBS
+      objectReference: {fileID: 0}
+    - target: {fileID: 8546736251914227814, guid: 0c27148cd56f77e42876e79002656f02, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8579178303405314929, guid: 0c27148cd56f77e42876e79002656f02, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 9151414960328929793, guid: 0c27148cd56f77e42876e79002656f02, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.05
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c27148cd56f77e42876e79002656f02, type: 3}

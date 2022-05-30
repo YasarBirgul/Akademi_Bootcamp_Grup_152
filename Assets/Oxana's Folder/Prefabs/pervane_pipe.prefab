@@ -89,7 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9652da933dc493640a676985d8d15954, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  revolveSpeed: 2
+  revolveSpeed: 4
 --- !u!1001 &4102115541392354157
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -159,6 +159,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1038629646193773315}
     m_Modifications:
+    - target: {fileID: 692289302269228134, guid: 4b1ad54ac859062459cd7ea16d5061b0, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1498319191895191747, guid: 4b1ad54ac859062459cd7ea16d5061b0, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2566220041647497953, guid: 4b1ad54ac859062459cd7ea16d5061b0, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -206,6 +214,14 @@ PrefabInstance:
     - target: {fileID: 2942780356737333339, guid: 4b1ad54ac859062459cd7ea16d5061b0, type: 3}
       propertyPath: m_Name
       value: pervane_ortasi
+      objectReference: {fileID: 0}
+    - target: {fileID: 3517466433946522107, guid: 4b1ad54ac859062459cd7ea16d5061b0, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219171868190015941, guid: 4b1ad54ac859062459cd7ea16d5061b0, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6876858508838777575, guid: 4b1ad54ac859062459cd7ea16d5061b0, type: 3}
       propertyPath: m_IsActive

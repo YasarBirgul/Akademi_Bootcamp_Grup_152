@@ -89,7 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9652da933dc493640a676985d8d15954, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  revolveSpeed: 2
+  revolveSpeed: 4
 --- !u!1001 &4964541556995377208
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -159,6 +159,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1019624122407047375}
     m_Modifications:
+    - target: {fileID: 956680077729437744, guid: 8267852ec3c16c949bce199c950c659c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5092775580598611174, guid: 8267852ec3c16c949bce199c950c659c, type: 3}
       propertyPath: m_Name
       value: somun
@@ -205,6 +209,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5613451908349785692, guid: 8267852ec3c16c949bce199c950c659c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6805251874690784337, guid: 8267852ec3c16c949bce199c950c659c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839909815551999855, guid: 8267852ec3c16c949bce199c950c659c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6938651752531461096, guid: 8267852ec3c16c949bce199c950c659c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6968924190197115633, guid: 8267852ec3c16c949bce199c950c659c, type: 3}
+      propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8697295395864910043, guid: 8267852ec3c16c949bce199c950c659c, type: 3}

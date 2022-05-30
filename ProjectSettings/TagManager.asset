@@ -7,6 +7,7 @@ TagManager:
   - OBS
   - Pipe
   - ShieldPill
+  - health
   layers:
   - Default
   - TransparentFX
