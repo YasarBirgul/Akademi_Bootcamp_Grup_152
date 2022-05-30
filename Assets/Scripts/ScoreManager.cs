@@ -1,6 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ScoreManager : MonoBehaviour
 {
@@ -8,31 +11,19 @@ public class ScoreManager : MonoBehaviour
     public int score;
     public int highScore;
     
-    void Start()
+    void Awake()
     {
         if (_instance == null)
-        { _instance = this; score = 0; 
+        {   _instance = this;
+            score = 0; 
             highScore = PlayerPrefs.GetInt("HighScore1", 0);
             DontDestroyOnLoad(gameObject);
         }
         else
         {
-          Destroy(gameObject);    
+            Destroy(gameObject);    
         }
     }
-
-    private void OnGUI()
-    {   GUIStyle secondStyle = new GUIStyle();
-        GUIStyle myStyle = new GUIStyle();
-        myStyle.fontSize = 80;
-        myStyle.normal.textColor = Color.white;
-        secondStyle.fontSize = 20;
-        secondStyle.normal.textColor =Color.white;
-        GUI.Label(new Rect(50f,50f,100f,200f),"" + score,myStyle);
-        GUI.Label(new Rect(50f,150f,100f,200f), "Highest " + highScore,secondStyle);
-        
-    }
-    
     public void CheckHighScore()
     { 
         if (score > highScore)
@@ -46,10 +37,10 @@ public class ScoreManager : MonoBehaviour
        if ((int)tranform_float_z > score)
        {    int a = (int)tranform_float_z;
            score = a;
-           Debug.Log(score);
        }
    }
-    
-    
-    
+    public void ResetScore()
+    { 
+        score = 0;
+    }
 }
