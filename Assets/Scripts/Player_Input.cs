@@ -20,7 +20,8 @@ public class Player_Input : MonoBehaviour
 
     private void Update()
     {
-        if (Input.touchCount != 0)
+        #region MobileInput
+ if (Input.touchCount != 0)
              {    
                  
                  Touch touch = Input.GetTouch(0);
@@ -33,5 +34,24 @@ public class Player_Input : MonoBehaviour
                      _animationManager.JumpReset();
                  }
              }
+        
+
+        #endregion 
+        
+        #region Pc Input
+         if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            _animationManager.Jump();
+            
+        }
+        else
+        {
+            _animationManager.JumpReset();
+        }
+        
+
+        #endregion
+        
+
     }
 }

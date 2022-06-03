@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class AnimationManager : MonoBehaviour
 {   
-    
-    public Animator _playerAnimator;
+    [SerializeField]
+    private Animator _playerAnimator;
     void Start()
     {
         _playerAnimator = GetComponent<Animator>();

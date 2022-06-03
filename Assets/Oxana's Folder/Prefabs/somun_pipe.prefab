@@ -167,6 +167,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: somun
       objectReference: {fileID: 0}
+    - target: {fileID: 5092775580598611174, guid: 8267852ec3c16c949bce199c950c659c, type: 3}
+      propertyPath: m_TagString
+      value: OBS
+      objectReference: {fileID: 0}
     - target: {fileID: 5613451908349785692, guid: 8267852ec3c16c949bce199c950c659c, type: 3}
       propertyPath: m_RootOrder
       value: 1

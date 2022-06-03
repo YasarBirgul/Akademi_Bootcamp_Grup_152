@@ -5,12 +5,15 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {   
     // PLayer Rigidbody Movement
-    public Player_Movement _playerMovement;
-    public Player_Input _playerInput;
+    [SerializeField]
+    private Player_Movement _playerMovement;
+    [SerializeField]
+    private Player_Input _playerInput;
     [SerializeField]
     private ScoreManager _scoreManager;
-    public Transform _transform;
-    void Start()
+    [SerializeField]
+    private Transform _transform;
+    void Awake()
     {   _playerMovement = GetComponent<Player_Movement>();
         _playerInput = GetComponent<Player_Input>();
         _scoreManager = GetComponent<ScoreManager>();
@@ -29,6 +32,4 @@ public class Player : MonoBehaviour
     {    
         _playerMovement.MovePlayer();
     }
-
-    
 }

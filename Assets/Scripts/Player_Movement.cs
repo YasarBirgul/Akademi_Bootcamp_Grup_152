@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player_Movement : MonoBehaviour
 {   private Vector3 PlayerMoveVector3 = Vector3.forward;
-    private Vector3 PlayerJumpVector3 = Vector3.up;
+   
     public float movementSpeed;
     private Rigidbody _rbPlayer;
     void Start()
