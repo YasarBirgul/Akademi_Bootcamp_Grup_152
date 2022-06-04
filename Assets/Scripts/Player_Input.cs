@@ -20,12 +20,12 @@ public class Player_Input : MonoBehaviour
 
     private void Update()
     {
-        #region MobileInput
+        
  if (Input.touchCount != 0)
              {    
                  
                  Touch touch = Input.GetTouch(0);
-                 if ( Input.GetTouch(0).deltaPosition.y != 0 )
+                 if ( Input.GetTouch(0).deltaPosition.y > 5 )
                  {
                      _animationManager.Jump();
                  }
@@ -34,24 +34,6 @@ public class Player_Input : MonoBehaviour
                      _animationManager.JumpReset();
                  }
              }
-        
-
-        #endregion 
-        
-        #region Pc Input
-         if (Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            _animationManager.Jump();
-            
-        }
-        else
-        {
-            _animationManager.JumpReset();
-        }
-        
-
-        #endregion
-        
 
     }
 }

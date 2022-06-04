@@ -12,12 +12,14 @@ public class HealthController : MonoBehaviour
     [SerializeField] private Image[] hearths;
     private Player_Movement _playerMovement;
     // public ShowAdvertisement _showAdvertisement;
+    private PlayerMaterialSwapper _materialSwapper;
     public void Awake()
     {
         _playerMovement = GetComponent<Player_Movement>();
         playerHealth = hearths.Length;
      //   _showAdvertisement = GetComponent<ShowAdvertisement>();
         UpdateHealth();
+        _materialSwapper = GetComponent<PlayerMaterialSwapper>();
     }
     public void Update()
     {
@@ -36,7 +38,7 @@ public class HealthController : MonoBehaviour
             if (i < playerHealth)
             {
 
-                hearths[i].color = Color.red;
+                hearths[i].color = Color.yellow;
             }
             
             else
@@ -53,20 +55,22 @@ public class HealthController : MonoBehaviour
             playerHealth -= 1;
             UpdateHealth();
             forceRateDesreaseHalf();
-            Invoke("forceRateBackToNormal",3f);
+            Invoke("forceRateBackToNormal",6f);
             Destroy(other.gameObject); // Can be changed 
+           
         }
     } 
     void forceRateDesreaseHalf()
     {
         _playerMovement.movementSpeed = _playerMovement.movementSpeed  / 2;
         forceRateDesrease = true;
-
+        _materialSwapper.changeMat(_materialSwapper.materialDamage);
     }
     void forceRateBackToNormal()
     {
         _playerMovement.movementSpeed = _playerMovement.movementSpeed * 2;
         forceRateDesrease = false;
+        _materialSwapper.changeMat(_materialSwapper.MaterialNorm);
     }
     
 }

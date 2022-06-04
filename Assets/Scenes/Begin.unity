@@ -294,6 +294,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1367952942}
   - component: {fileID: 1367952941}
+  - component: {fileID: 1367952943}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -378,6 +379,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &1367952943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367952940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!224 &1817024982 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4604368193869296359, guid: 3c77b6321299cd0469c8c67fcb81ec92, type: 3}
@@ -562,7 +583,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 683708230318174480, guid: 805f0ff1524f87048b4291e48ce49c1e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 200
+      value: 1405
       objectReference: {fileID: 0}
     - target: {fileID: 683708230318174480, guid: 805f0ff1524f87048b4291e48ce49c1e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -575,6 +596,22 @@ PrefabInstance:
     - target: {fileID: 683708230318174480, guid: 805f0ff1524f87048b4291e48ce49c1e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 683708230318174482, guid: 805f0ff1524f87048b4291e48ce49c1e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 85b0f7c085d5ab947a3cfccfa5958932, type: 3}
+    - target: {fileID: 683708230318174493, guid: 805f0ff1524f87048b4291e48ce49c1e, type: 3}
+      propertyPath: m_Colors.m_PressedColor.b
+      value: 0.2742435
+      objectReference: {fileID: 0}
+    - target: {fileID: 683708230318174493, guid: 805f0ff1524f87048b4291e48ce49c1e, type: 3}
+      propertyPath: m_Colors.m_PressedColor.g
+      value: 0.2742435
+      objectReference: {fileID: 0}
+    - target: {fileID: 683708230318174493, guid: 805f0ff1524f87048b4291e48ce49c1e, type: 3}
+      propertyPath: m_Colors.m_PressedColor.r
+      value: 0.2924528
       objectReference: {fileID: 0}
     - target: {fileID: 683708230318174493, guid: 805f0ff1524f87048b4291e48ce49c1e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -597,6 +634,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Panel
       objectReference: {fileID: 0}
+    - target: {fileID: 4604368193869296358, guid: 3c77b6321299cd0469c8c67fcb81ec92, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 29960920b4aad4843a7b752cfe06886e, type: 3}
     - target: {fileID: 4604368193869296359, guid: 3c77b6321299cd0469c8c67fcb81ec92, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

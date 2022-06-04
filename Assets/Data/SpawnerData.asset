@@ -13,13 +13,18 @@ MonoBehaviour:
   m_Name: SpawnerData
   m_EditorClassIdentifier: 
   prefabName: 
-  numberOfPrefabsToCreate: 4
+  numberOfPrefabsToCreate: 7
   spawnPoints:
   - {x: 0, y: 0, z: 0}
   - {x: 0, y: 0, z: 15}
   - {x: 0, y: 0, z: 30}
   - {x: 0, y: 0, z: 45}
+  - {x: 0, y: 0, z: 60}
+  - {x: 0, y: 0, z: 75}
+  - {x: 0, y: 0, z: 90}
   pipesTypes:
+  - {fileID: 193914165053483065, guid: c1bfc1dfd69a0d14b94acd50a51b5272, type: 3}
+  - {fileID: 9040676230443061515, guid: 8812ed68f8665d246b64c3da33b860fd, type: 3}
   - {fileID: 8339186688834710415, guid: 555169769f56abd42b022c288c9802a7, type: 3}
   - {fileID: 3992919270188810942, guid: d036170b187dc434c988108eb49cb253, type: 3}
   - {fileID: 3446673250725328675, guid: 766856e9e5d218445b068e1906f5424e, type: 3}
@@ -27,6 +32,8 @@ MonoBehaviour:
   - {fileID: 3106705620034716609, guid: 9cb10a82484683445851db07aa7f1f81, type: 3}
   - {fileID: 6552463853050061456, guid: 1d00b712b17323a4bb3d9b29c1b6112d, type: 3}
   - {fileID: 7590452289887571706, guid: bf173e001d545034ab385e4ef050ec41, type: 3}
-  - {fileID: 4326874691726791720, guid: 0023fd0898ceaf94e869c4f81f20d76e, type: 3}
-  - {fileID: 5605509857810696445, guid: 2fde07816c5cb4a4e90daf05a071f866, type: 3}
   - {fileID: 1376814083301070438, guid: 3dbc7e56e4c8ac942aafb8bf19385440, type: 3}
+  - {fileID: 5605509857810696445, guid: 2fde07816c5cb4a4e90daf05a071f866, type: 3}
+  - {fileID: 4326874691726791720, guid: 0023fd0898ceaf94e869c4f81f20d76e, type: 3}
+  - {fileID: 4160613956906694130, guid: c66655b4e14ba104fad619cb3a07df0d, type: 3}
+  - {fileID: 4776954672761041315, guid: 05123f75436971249916b7419b485eda, type: 3}
