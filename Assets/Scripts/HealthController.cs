@@ -58,7 +58,7 @@ public class HealthController : MonoBehaviour
             Destroy(other.gameObject);
             UpdateHealth();
             forceRateDesreaseHalf();
-            Invoke("forceRateBackToNormal",2f);
+            Invoke("forceRateBackToNormal",1f);
         }
     } 
     void forceRateDesreaseHalf()
@@ -68,6 +68,7 @@ public class HealthController : MonoBehaviour
         _materialSwapper.changeMat(_materialSwapper.materialDamage);
         _particle.ParticleState(_particleSystemRed,true);
         CinemachineShake.instance.ShakeCamera(5f,.1f);
+        gameObject.GetComponent<AudioSource>().enabled = false;
     }
     void forceRateBackToNormal()
     {
@@ -76,6 +77,7 @@ public class HealthController : MonoBehaviour
         _materialSwapper.changeMat(_materialSwapper.MaterialNorm);
         _particle.ParticleState(_particleSystemRed,false);
         CinemachineShake.instance.ShakeCamera(0f,.1f);
+        gameObject.GetComponent<AudioSource>().enabled = true;
     }
     
 }

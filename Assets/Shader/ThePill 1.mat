@@ -44,7 +44,7 @@ Material:
     m_Colors:
     - _fresnelColor: {r: 113.24415, g: 113.24415, b: 113.24415, a: 0}
     - _fresnelScale: {r: 5, g: 5, b: 0, a: 0}
-    - _playerShield: {r: 1, g: 0.9260169, b: 0, a: 0}
+    - _playerShield: {r: 1, g: 0.48822433, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &2338285538104246607
 MonoBehaviour:

@@ -9,7 +9,6 @@ public class HearthIncrease : MonoBehaviour
    [SerializeField]
    private HealthController _healthController;
 
-
    private void Awake()
    {
       _healthController = GetComponent<HealthController>();
@@ -25,6 +24,7 @@ public class HearthIncrease : MonoBehaviour
          {
             _healthController.playerHealth += 1;
             _healthController.UpdateHealth();
+            
          }
          Destroy(other.gameObject);
       }
