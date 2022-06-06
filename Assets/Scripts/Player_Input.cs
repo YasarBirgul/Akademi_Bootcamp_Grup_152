@@ -9,19 +9,14 @@ public class Player_Input : MonoBehaviour
 {
     [SerializeField]
     private AnimationManager _animationManager;
-    
-
     private void Awake()
     {
         _animationManager = GetComponent<AnimationManager>();
     }
-
-
-
     private void Update()
     {
-        
- if (Input.touchCount != 0)
+             // Jump Swipe Input 
+             if (Input.touchCount != 0)
              {    
                  
                  Touch touch = Input.GetTouch(0);

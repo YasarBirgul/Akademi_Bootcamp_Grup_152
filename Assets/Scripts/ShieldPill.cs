@@ -26,7 +26,7 @@ public class ShieldPill : MonoBehaviour
         {
             _playerMovement.movementSpeed = 750;
             Destroy(other.gameObject);
-            _materialSwapper.changeMat(_materialSwapper.Material1);
+            _materialSwapper.changeMat(_materialSwapper.MaterialSpeed);
             _particle.ParticleState(_particleSystemWhite,true);
         }
         Invoke("BacktoNormal",7);

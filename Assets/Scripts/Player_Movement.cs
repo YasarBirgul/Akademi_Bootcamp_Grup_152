@@ -3,15 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Player_Movement : MonoBehaviour
-{   private Vector3 PlayerMoveVector3 = Vector3.forward;
-   
+{   
+    // Move Vector Player
+    private Vector3 PlayerMoveVector3 = Vector3.forward;
+    // Player MoveSpeed;
     public float movementSpeed;
-    private Rigidbody _rbPlayer;
-    void Start()
+    public void Init(Rigidbody _rbPlayer)
     {
         _rbPlayer = GetComponent<Rigidbody>();
     } 
-    public void MovePlayer()
+    public void MovePlayer(Rigidbody _rbPlayer)
     { 
         _rbPlayer.velocity = PlayerMoveVector3 * movementSpeed*Time.deltaTime;
     }

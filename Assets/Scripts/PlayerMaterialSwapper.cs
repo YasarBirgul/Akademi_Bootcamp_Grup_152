@@ -5,15 +5,17 @@ using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerMaterialSwapper : MonoBehaviour
-{
-    public Material Material1;
-    public GameObject mesh;
+{   // SpeedUp Skin of the character
+    public Material MaterialSpeed;
+    // Normal Skin of the character
     public Material MaterialNorm;
-    public GameObject player;
+    // Damaged Skin of the character
     public Material materialDamage;
+    [SerializeField]
+    private GameObject _mesh;
     public void changeMat(Material material)
     {
-        mesh.GetComponent<SkinnedMeshRenderer>().material = material;
+        _mesh.GetComponent<SkinnedMeshRenderer>().material = material;
     }
     
 }

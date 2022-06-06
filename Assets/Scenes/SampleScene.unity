@@ -342,7 +342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b57da0ee9f02eff4e9cb937297743d90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  entityToSpawn: {fileID: 1376814083301070438, guid: 3dbc7e56e4c8ac942aafb8bf19385440, type: 3}
+  entityToSpawn: {fileID: 8339186688834710415, guid: 555169769f56abd42b022c288c9802a7, type: 3}
   spawnManagerValues: {fileID: 11400000, guid: 0d47bd18f53a5684e8d341d416854d43, type: 2}
   rotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!4 &560699952
@@ -11595,17 +11595,17 @@ GameObject:
   m_Component:
   - component: {fileID: 3635176563583300241}
   - component: {fileID: 8523539908894159369}
-  - component: {fileID: 2238750625346207468}
   - component: {fileID: 1959181971123330702}
-  - component: {fileID: 8177262599963343063}
-  - component: {fileID: 3504786325046671867}
-  - component: {fileID: 4353647069466796511}
+  - component: {fileID: 2238750625346207468}
   - component: {fileID: 2960600701228741101}
+  - component: {fileID: 8177262599963343063}
+  - component: {fileID: 4353647069466796511}
+  - component: {fileID: 3504786325046671867}
+  - component: {fileID: 8726415321444101591}
+  - component: {fileID: 8726415321444101590}
   - component: {fileID: 8726415321444101589}
   - component: {fileID: 4177061480890565395}
   - component: {fileID: 692127074156922684}
-  - component: {fileID: 8726415321444101590}
-  - component: {fileID: 8726415321444101591}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -12148,9 +12148,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerMovement: {fileID: 1959181971123330702}
-  _playerInput: {fileID: 2238750625346207468}
-  _scoreManager: {fileID: 1733359950}
   _transform: {fileID: 3635176563583300241}
+  _rbPlayer: {fileID: 4177061480890565395}
 --- !u!136 &8726415321444101589
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -12177,11 +12176,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c2cdbe4b2670304db0369f8bb6d1723, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Material1: {fileID: 2100000, guid: 7214e3408c0de7f4bac91110901ed025, type: 2}
-  mesh: {fileID: 3136931205795088384}
+  MaterialSpeed: {fileID: 0}
   MaterialNorm: {fileID: 2100000, guid: 2f95f7f46977fb24aad4e9ef759e7099, type: 2}
-  player: {fileID: 4123447328252454955}
   materialDamage: {fileID: 2100000, guid: 8b7db6ec033a01846b86fdb7cf28613c, type: 2}
+  _mesh: {fileID: 3136931205795088384}
 --- !u!114 &8726415321444101591
 MonoBehaviour:
   m_ObjectHideFlags: 0

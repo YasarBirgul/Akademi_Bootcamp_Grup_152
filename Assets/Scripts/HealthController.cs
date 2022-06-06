@@ -34,7 +34,6 @@ public class HealthController : MonoBehaviour
             ScoreManager._instance.CheckHighScore();
             SceneManager.LoadScene(2);
         }
-   
     }
     public void UpdateHealth()
     {
@@ -45,12 +44,10 @@ public class HealthController : MonoBehaviour
 
                 hearths[i].color = Color.yellow;
             }
-            
             else
             {
                 hearths[i].color = Color.clear;
             }
-      
         }
     }
     public void OnCollisionEnter(Collision other)
@@ -62,7 +59,6 @@ public class HealthController : MonoBehaviour
             UpdateHealth();
             forceRateDesreaseHalf();
             Invoke("forceRateBackToNormal",2f);
-
         }
     } 
     void forceRateDesreaseHalf()
