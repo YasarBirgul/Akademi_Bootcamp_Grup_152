@@ -143,4 +143,62 @@ Sprint Review Katılımcıları : Yaşar Birgül, Cem Arslan, Oxana Cozlova, Ufu
 
 # Sprint 3
 
----
+- **Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 165 Puan
+
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 380 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
+
+- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
+
+Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
+
+- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 3 Daily Scrum Chats](https://github.com/YasarBirgul/Akademi_Bootcamp_Grup_152/files/8846921/3rdSprintPlanning.docx)
+- [Miro Scrum Studio 152](https://miro.com/app/board/uXjVO2129PQ=/)
+
+
+
+- **Sprint board update**: Sprint board screenshotları: 
+ ![Backlog 1](https://user-images.githubusercontent.com/97702355/172237153-1a50e985-7a56-48dd-a6a8-81fb5594d1ae.png)
+ ![Backlog 2](https://user-images.githubusercontent.com/97702355/172237234-dbe69982-4a37-47d1-bcf6-13ffcf4a5eb0.png)
+ ![Backlog 3](https://user-images.githubusercontent.com/97702355/172237256-36e3d024-3b85-4c5e-8276-251c49991873.png)
+
+
+
+- **Ürün Durumu**: Ekran görüntüleri:
+
+  ![Screenshot 1](https://user-images.githubusercontent.com/97702355/172232161-a676a7d9-7654-425f-9274-505c16026595.png)
+  ![Screenshot 2](https://user-images.githubusercontent.com/97702355/172232318-4aae3069-2c0d-4503-a1c1-e1a8cc68fa2e.png)
+  ![Screenshot 3](https://user-images.githubusercontent.com/97702355/172232385-a8fc6e20-03fa-4851-8b6c-a3fdf3f338c2.png)
+  ![Screenshot 4](https://user-images.githubusercontent.com/97702355/172232411-70319aef-b14b-4736-ba19-c420d39fe87b.png)
+  ![Screenshot 5](https://user-images.githubusercontent.com/97702355/172232439-d74a23d5-9c27-4a40-8502-66d0d445d24f.png)
+  ![Screenshot 6](https://user-images.githubusercontent.com/97702355/172232506-971723f3-d851-4aaf-9410-fa4ae0df483c.png)
+  ![Screenshot 7](https://user-images.githubusercontent.com/97702355/172232575-a4f63954-5546-4d2a-8313-3de3b91969fd.png)
+  ![Screenshot 8](https://user-images.githubusercontent.com/97702355/172232582-e6439f63-8332-4e70-997d-02772ea51f1f.png)
+  ![Screenshot 9](https://user-images.githubusercontent.com/97702355/172232600-d8063fd2-467a-41d8-8c18-9bd76a86ac0c.png)
+  ![Screenshot 10](https://user-images.githubusercontent.com/97702355/172232671-e5f9349a-1b67-4bb8-b09a-344195dbde14.png)
+
+
+
+## - **Apk Drive Dosya Linki**: [Oyun Apk Dosyasını indir](https://drive.google.com/drive/folders/1ySiLyoB8rVgyrO0ijMw2q8vizCxIlPbf?usp=sharing)
+
+**Sprint Review**: 
+
+Alınan kararlar: Karakter için damage ve hızlı koşu skin ve particalları üretilmiştir. Farklı durumlarda bu particallar aktive olmaktadır. Can artırıcı elemanlar eklenmiş. Pipe sayısı ve içeriği artırılarak oyun zenginleştirilmiştir. Final Sprint adına gameplay test edilmiş ve ürün 3 Sprint sonunda MVP olarak sunulmuştur.
+
+Sprint Review Katılımcıları : Yaşar Birgül, Cem Arslan, Oxana Cozlova, Ufuk Süleyman Oflaz
+
+**Project Review**: 
+- Hikaye ve gameplay kurgusu ilk eskizden son ürün olan MVP apk dosyasına kadar genel anlamda düşünülen fikirler uygulanabilmiştir.
+- Uyum içinde çalışılmış, yazılım ve tasarım alanları birlikte ilerlemiştir.
+- Çıkan ürün HyperCasual standartlarına uygun üretilmiştir.
+
+Project Review Katılımcıları : Yaşar Birgül, Cem Arslan, Oxana Cozlova, Ufuk Süleyman Oflaz
+
+**Project Retrospective:**
+- Proje süreçleri çevik yaklaşıma daha uygun yürütülebilir.
+- Bireysel etmenlerin proje sürecine etkisinin azaltılması.
+- Proje planlamasının daha gerçekçi kurulması.
+  
+ 
+
