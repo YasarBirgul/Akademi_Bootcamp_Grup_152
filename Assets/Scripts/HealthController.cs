@@ -12,11 +12,11 @@ public class HealthController : MonoBehaviour
     [SerializeField] private Image[] hearths;
     private Player_Movement _playerMovement;
     // public ShowAdvertisement _showAdvertisement;
-    [SerializeField]
-    private PlayerMaterialSwapper _materialSwapper;
+    [SerializeField] private PlayerMaterialSwapper _materialSwapper;
     private PlayerParticleSystem _particle;
-    [SerializeField]
-    private ParticleSystem _particleSystemRed;
+    [SerializeField] private ParticleSystem _particleSystemRed;
+    [SerializeField] private AudioClip _normal;
+    [SerializeField] private AudioClip _hit;
     public void Awake()
     {
         _playerMovement = GetComponent<Player_Movement>();
@@ -59,6 +59,7 @@ public class HealthController : MonoBehaviour
             UpdateHealth();
             forceRateDesreaseHalf();
             Invoke("forceRateBackToNormal",1f);
+            
         }
     } 
     void forceRateDesreaseHalf()
@@ -68,7 +69,7 @@ public class HealthController : MonoBehaviour
         _materialSwapper.changeMat(_materialSwapper.materialDamage);
         _particle.ParticleState(_particleSystemRed,true);
         CinemachineShake.instance.ShakeCamera(5f,.1f);
-        gameObject.GetComponent<AudioSource>().enabled = false;
+        GetComponent<AudioSource>().enabled = true;
     }
     void forceRateBackToNormal()
     {
@@ -77,7 +78,8 @@ public class HealthController : MonoBehaviour
         _materialSwapper.changeMat(_materialSwapper.MaterialNorm);
         _particle.ParticleState(_particleSystemRed,false);
         CinemachineShake.instance.ShakeCamera(0f,.1f);
-        gameObject.GetComponent<AudioSource>().enabled = true;
+        GetComponent<AudioSource>().enabled = false;
+
     }
     
 }
