@@ -10,11 +10,14 @@ public class ShieldPill : MonoBehaviour
     private Player_Movement _playerMovement;
     [SerializeField]
     private PlayerMaterialSwapper _materialSwapper;
-    
+    private PlayerParticleSystem _particle;
+    [SerializeField]
+    private ParticleSystem _particleSystemWhite;
     private void Awake()
     {
         _playerMovement=GetComponent<Player_Movement>();
         _materialSwapper=GetComponent<PlayerMaterialSwapper>();
+        _particle = GetComponent<PlayerParticleSystem>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -24,6 +27,7 @@ public class ShieldPill : MonoBehaviour
             _playerMovement.movementSpeed = 750;
             Destroy(other.gameObject);
             _materialSwapper.changeMat(_materialSwapper.Material1);
+            _particle.ParticleState(_particleSystemWhite,true);
         }
         Invoke("BacktoNormal",7);
     }
@@ -31,6 +35,7 @@ public class ShieldPill : MonoBehaviour
     void BacktoNormal()
     { _playerMovement.movementSpeed = 500; 
         _materialSwapper.changeMat(_materialSwapper.MaterialNorm);
+        _particle.ParticleState(_particleSystemWhite,false);
     }
 
 }

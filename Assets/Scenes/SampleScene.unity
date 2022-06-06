@@ -342,7 +342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b57da0ee9f02eff4e9cb937297743d90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  entityToSpawn: {fileID: 3992919270188810942, guid: d036170b187dc434c988108eb49cb253, type: 3}
+  entityToSpawn: {fileID: 1376814083301070438, guid: 3dbc7e56e4c8ac942aafb8bf19385440, type: 3}
   spawnManagerValues: {fileID: 11400000, guid: 0d47bd18f53a5684e8d341d416854d43, type: 2}
   rotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!4 &560699952
@@ -863,6 +863,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1534189600}
   - component: {fileID: 1534189599}
+  - component: {fileID: 1534189601}
   m_Layer: 0
   m_Name: CM vcam1
   m_TagString: Untagged
@@ -924,6 +925,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1534189601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534189598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f02485a71e6b2344a8022b9666e18ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1539610503
 GameObject:
   m_ObjectHideFlags: 0
@@ -1037,14 +1050,14 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1539610503}
   serializedVersion: 8
-  lengthInSec: 1
+  lengthInSec: 3
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
   emitterVelocityMode: 1
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
@@ -5806,6 +5819,7 @@ GameObject:
   - component: {fileID: 1688183506}
   - component: {fileID: 1688183505}
   - component: {fileID: 1688183504}
+  - component: {fileID: 1688183507}
   m_Layer: 0
   m_Name: cm
   m_TagString: Untagged
@@ -5889,6 +5903,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1688183507
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688183502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bb026fafb42b14791938953eaace77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_NoiseProfile: {fileID: 11400000, guid: 69ce8388f6785dd4c8c39915efece2f4, type: 2}
+  m_PivotOffset: {x: 0, y: 0, z: 0}
+  m_AmplitudeGain: 0
+  m_FrequencyGain: 5
+  mNoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!1 &1704260097
 GameObject:
   m_ObjectHideFlags: 0
@@ -11483,7 +11514,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerMovement: {fileID: 1959181971123330702}
-  _materialSwapper: {fileID: 0}
+  _materialSwapper: {fileID: 8726415321444101590}
+  _particleSystemWhite: {fileID: 2126536860}
 --- !u!4 &3525455178656646421
 Transform:
   m_ObjectHideFlags: 0
@@ -11573,6 +11605,7 @@ GameObject:
   - component: {fileID: 4177061480890565395}
   - component: {fileID: 692127074156922684}
   - component: {fileID: 8726415321444101590}
+  - component: {fileID: 8726415321444101591}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -12069,6 +12102,8 @@ MonoBehaviour:
   - {fileID: 248290211}
   - {fileID: 1227581569}
   - {fileID: 1018141851}
+  _materialSwapper: {fileID: 8726415321444101590}
+  _particleSystemRed: {fileID: 1539610506}
 --- !u!4 &8185063647608090958
 Transform:
   m_ObjectHideFlags: 0
@@ -12147,6 +12182,18 @@ MonoBehaviour:
   MaterialNorm: {fileID: 2100000, guid: 2f95f7f46977fb24aad4e9ef759e7099, type: 2}
   player: {fileID: 4123447328252454955}
   materialDamage: {fileID: 2100000, guid: 8b7db6ec033a01846b86fdb7cf28613c, type: 2}
+--- !u!114 &8726415321444101591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4123447328252454955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bace4941bc79bc46a64c5bce1d1ea1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &8789583251526015904
 Transform:
   m_ObjectHideFlags: 0

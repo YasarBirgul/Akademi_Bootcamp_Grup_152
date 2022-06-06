@@ -12,7 +12,11 @@ public class HealthController : MonoBehaviour
     [SerializeField] private Image[] hearths;
     private Player_Movement _playerMovement;
     // public ShowAdvertisement _showAdvertisement;
+    [SerializeField]
     private PlayerMaterialSwapper _materialSwapper;
+    private PlayerParticleSystem _particle;
+    [SerializeField]
+    private ParticleSystem _particleSystemRed;
     public void Awake()
     {
         _playerMovement = GetComponent<Player_Movement>();
@@ -20,6 +24,7 @@ public class HealthController : MonoBehaviour
      //   _showAdvertisement = GetComponent<ShowAdvertisement>();
         UpdateHealth();
         _materialSwapper = GetComponent<PlayerMaterialSwapper>();
+        _particle = GetComponent<PlayerParticleSystem>();
     }
     public void Update()
     {
@@ -53,11 +58,11 @@ public class HealthController : MonoBehaviour
         if (other.gameObject.CompareTag("OBS") && forceRateDesrease == false)
         {
             playerHealth -= 1;
+            Destroy(other.gameObject);
             UpdateHealth();
             forceRateDesreaseHalf();
-            Invoke("forceRateBackToNormal",6f);
-            Destroy(other.gameObject); // Can be changed 
-           
+            Invoke("forceRateBackToNormal",2f);
+
         }
     } 
     void forceRateDesreaseHalf()
@@ -65,12 +70,16 @@ public class HealthController : MonoBehaviour
         _playerMovement.movementSpeed = _playerMovement.movementSpeed  / 2;
         forceRateDesrease = true;
         _materialSwapper.changeMat(_materialSwapper.materialDamage);
+        _particle.ParticleState(_particleSystemRed,true);
+        CinemachineShake.instance.ShakeCamera(5f,.1f);
     }
     void forceRateBackToNormal()
     {
         _playerMovement.movementSpeed = _playerMovement.movementSpeed * 2;
         forceRateDesrease = false;
         _materialSwapper.changeMat(_materialSwapper.MaterialNorm);
+        _particle.ParticleState(_particleSystemRed,false);
+        CinemachineShake.instance.ShakeCamera(0f,.1f);
     }
     
 }
